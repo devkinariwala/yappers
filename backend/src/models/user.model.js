@@ -8,8 +8,6 @@ const userSchema = new mongoose.Schema(
     password: { type: String, required: true, minlength: 6 },
     bio: { type: String, default: "" },
     profilePicture: { type: String, default: "" },
-    nativeLanguage: { type: String, default: "" },
-    learningLanguage: { type: String, default: "" },
     location: { type: String, default: "" },
     isOnboarded: { type: Boolean, default: false },
     friends: [
